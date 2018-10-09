@@ -6,9 +6,9 @@ import credentials
 # pull secret keys from seperate python script
 reddit = praw.Reddit(client_id=credentials.client_id, \
                      client_secret=credentials.client_secret, \
-                      user_agent=credentials.user_agent, \
-                      user_name=credentials.user_name, \
-                      password=credentials.password)
+                     user_agent=credentials.user_agent, \
+                     user_name=credentials.user_name, \
+                     password=credentials.password)
 
 # search whichever subreddit you need
 subreddit = reddit.subreddit("VinylDeals")
